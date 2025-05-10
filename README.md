@@ -50,16 +50,16 @@ npm start
 ## API Endpoints
 
 ### Auth Routes
-- POST /api/auth/register - Register new user
-- POST /api/auth/login - Login user
+- POST /auth/register - Register new user
+- POST /auth/login - Login user
 
 ### Activity Routes
-- GET /api/activities - List all activities
+- GET /activity - List all activities
 
 
 ### Booking Routes (Protected)
-- POST /api/bookings/book - Book an activity
-- GET /api/bookings/my-bookings - Get user's bookings
+- POST /booking/book - Book an activity
+- GET /booking/my-bookings - Get user's bookings
 
 
 ## Environment Variables
